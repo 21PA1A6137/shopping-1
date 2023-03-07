@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap');     
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color: rgba(195, 195, 195, 0.145);
+}
+.nav-bars{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+ 
+}
+.logo{
+    padding: 10px;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    padding: 7px;
+}
+#home{
+    background-color: #282A35;
+    color: white;
+}
+#product{
+    background-color: #FFC0C7;
+}
+#account{
+    background-color: #FFF4A3;
+}
+#contact{
+    background-color: #04AA6D;
+    color: black;
+}
+#cart{
+    font-size: 25px;
+
+}
+#cart i{
+    margin-bottom: -50px;
+}
+.container{
+    width: 100%;
+    margin: auto;
+
+    
+}
+.header{
+    background: radial-gradient(white,rgb(117, 209, 117));
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 30px;
+    
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0 0 0;
+    height: 600px;
+    width: 800px;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px;
+}
+.col-2 p{
+    margin: 25px;
+}
+.btn{
+    text-align: center;
+    display: inline-block;
+    background-color: #04AA6D;
+    color: black;
+    padding: 8px 30px;
+    margin: 30px;
+    border-radius: 20px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background-color: rgb(40, 196, 40);
+}
+
+.aboutus{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+.para{
+    max-width: 500px;
+    height: 100px;
+}
+.category{
+    margin:70px 0;
+}
+.col-1{
+    min-width: 100px;
+    padding: 10px;
+}
+.col-1 img{
+    height: 200px;
+    width: 270px;
+    border-radius: 10px;
+
+}
+.box-1{
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+.box-1 i{
+    color: #32715a;
+}
+.box-1 button{
+    padding: 6px 8px;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+}
